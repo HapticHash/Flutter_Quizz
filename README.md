@@ -1,10 +1,10 @@
-<p align="center">
-  <b style="font-size: 40px;">QuizzApp</b><br>
-  <i>A basic True/False application made with <br>the help of Google's Flutter Framework</i><br><br>
+# QuizzApp
+_A basic True/False application made with the help of Google's Flutter Framework_
+<p>
   <a href="https://github.com/feross/standard">
     <img src="https://img.shields.io/badge/code_style-standard-blue.svg?style=flat-square" />
   </a>
-  <a href="https://raw.githubusercontent.com/thecodepad/codepad/master/LICENSE"> 
+  <a href="https://raw.githubusercontent.com/harshitks2203/Flutter_Quizz/blob/master/LICENSE"> 
     <img src="https://img.shields.io/badge/license-MIT-lightgrey.svg?style=flat-square" />
   </a>
   <br><br>
