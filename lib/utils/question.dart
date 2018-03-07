@@ -1,7 +1,7 @@
 class Question {
-  final String que;
-  final bool ans;
+  final String question;
+  final bool answer;
 
-  Question(this.que, this.ans);
+  Question(this.question, this.answer);
 
 }

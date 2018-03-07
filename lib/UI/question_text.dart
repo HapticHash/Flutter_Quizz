@@ -21,18 +21,37 @@ class QuestionTextState extends State<QuestionText> with SingleTickerProviderSta
   void initState() {
     super.initState();
     _fontSizeAnimationController  = new AnimationController(duration: new Duration(milliseconds: 500), vsync: this);
-    _fontSizeAnimation = new CurvedAnimation(parent: _fontSizeAnimationController, curve: Curves.linear); 
+    _fontSizeAnimation = new CurvedAnimation(parent: _fontSizeAnimationController, curve: Curves.bounceOut); 
+    _fontSizeAnimation.addListener(() => this.setState(() {}));
+    _fontSizeAnimationController.forward();
   }
+
+  @override
+  void dispose() {
+    _fontSizeAnimationController.dispose();
+    super.dispose();
+  }
+
+  @override
+    void didUpdateWidget(QuestionText oldWidget) {
+      // TODO: implement didUpdateWidget
+      super.didUpdateWidget(oldWidget);
+      if(oldWidget._question != widget._question){
+        _fontSizeAnimationController.reset();
+        _fontSizeAnimationController.forward();
+      }
+    }
 
   @override
   Widget build(BuildContext context) {
     return new Material(
       color: Colors.white,
       child: new Padding(
-        padding: new EdgeInsets.symmetric(vertical: 20.0),
+        padding: new EdgeInsets.symmetric(vertical: 20.0, horizontal: 15.0),
         child: new Center(
-          child: new Text("Statement " + widget._questionNumber.toString()+ ": " +widget._question,
-          style: new TextStyle( color: Colors.black, fontSize: 25.0, fontWeight: FontWeight.bold, fontStyle: FontStyle.normal),),
+          child: new Text( widget._question,
+          style: new TextStyle(fontSize: _fontSizeAnimation.value* 16),
+         ) ,
         )
       ),
     );
