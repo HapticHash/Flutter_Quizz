@@ -1,5 +1,5 @@
 <p align="center">
-  <b style="font-size: 30px;">QuizzApp</b><br>
+  <b style="font-size: 40px;">QuizzApp</b><br>
   <i>A basic True/False application made with <br>the help of Google's Flutter Framework</i><br><br>
   <a href="https://github.com/feross/standard">
     <img src="https://img.shields.io/badge/code_style-standard-blue.svg?style=flat-square" />
@@ -13,13 +13,7 @@
 
 ## Screenshot
 
-[<img alt='QuizzHomePage' src="https://raw.githubusercontent.com/harshitks2203/Flutter_Quizz/master/resources/1MainScreen.png?token=APLQiRXfkVTSOT2O89-16F5sJKuGotjXks5aqY7QwA%3D%3D">](HomePage)
-
-[<img alt='QuizzQuestionPage' src="https://raw.githubusercontent.com/harshitks2203/Flutter_Quizz/master/resources/2QuestionPage.png?token=APLQicWJDrevpbDxE19Hn28ocTOY4Wpjks5aqYuxwA%3D%3D">](QuestionPage)
-
-[<img alt='QuizzAnswerPage' src="https://raw.githubusercontent.com/harshitks2203/Flutter_Quizz/master/resources/3AnswerPage.png?token=APLQiULFq6ZFD5ns1d68bLrnSbS8bClLks5aqYuxwA%3D%3D">](AnswerPage)
-
-[<img alt='QuizzScorePage' src="https://raw.githubusercontent.com/harshitks2203/Flutter_Quizz/master/resources/4ScorePage.png?token=APLQiV_9a9-HAyWgVZQCPbJX8Ko89gdPks5aqYuywA%3D%3D">](ScorePage)
+[<img alt='QuizzHomePage' src="https://raw.githubusercontent.com/harshitks2203/Flutter_Quizz/master/resources/1MainScreen.png?token=APLQiRXfkVTSOT2O89-16F5sJKuGotjXks5aqY7QwA%3D%3D">](HomePage) [<img alt='QuizzQuestionPage' src="https://raw.githubusercontent.com/harshitks2203/Flutter_Quizz/master/resources/2QuestionPage.png?token=APLQicWJDrevpbDxE19Hn28ocTOY4Wpjks5aqYuxwA%3D%3D">](QuestionPage) [<img alt='QuizzAnswerPage' src="https://raw.githubusercontent.com/harshitks2203/Flutter_Quizz/master/resources/3AnswerPage.png?token=APLQiULFq6ZFD5ns1d68bLrnSbS8bClLks5aqYuxwA%3D%3D">](AnswerPage) [<img alt='QuizzScorePage' src="https://raw.githubusercontent.com/harshitks2203/Flutter_Quizz/master/resources/4ScorePage.png?token=APLQiV_9a9-HAyWgVZQCPbJX8Ko89gdPks5aqYuywA%3D%3D">](ScorePage)
 <br>
 
 ## Prerequisite
