@@ -1,5 +1,5 @@
 # QuizzApp
-_A basic True/False application made with the help of Google's Flutter Framework_
+_A basic True/False based Quiz application made with the help of Google's Flutter Framework_
 <p>
   <a href="https://github.com/feross/standard">
     <img src="https://img.shields.io/badge/code_style-standard-blue.svg?style=flat-square" />
