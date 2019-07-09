@@ -34,4 +34,4 @@ $ flutter run
 
 ## Credits
 
-Designed and developed by: [@harshitks2203](https://www.github.com/harshitks2203) 
+Designed and developed by: [@haptichash](https://www.github.com/haptichash) 
